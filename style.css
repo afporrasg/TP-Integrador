@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+#contenidoMenu{
+    padding: 3rem;
+}
+
 .landing{
     min-height: 600px;
 }
