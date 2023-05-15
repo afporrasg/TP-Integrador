@@ -6,6 +6,18 @@ document.getElementById("resumen").addEventListener("click", function () {
     var categoria = document.getElementById("categoria").value;
     var value;
 
+
+     // Verifica si el valor ingresado en cantidad es un número entero
+     if (!Number.isInteger(Number(cantidad))) {
+        // Muestra un popup de SweetAlert con el mensaje de error
+        Swal.fire({
+          icon: 'warning',
+          title: 'Error',
+          text: 'La cantidad de entradas debe ser un número entero.'
+        });
+        return;
+      }
+
     // Asigna el valor correspondiente a la categoría seleccionada
     switch (categoria) {
         case "1":
