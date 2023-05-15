@@ -9,13 +9,13 @@ document.getElementById("resumen").addEventListener("click", function () {
     // Asigna el valor correspondiente a la categoría seleccionada
     switch (categoria) {
         case "1":
-            value = 0.8;
+            value = 0.2;
             break;
         case "2":
             value = 0.5;
             break;
         case "3":
-            value = 0.15;
+            value = 0.75;
             break;
         default:
             value = 0;
