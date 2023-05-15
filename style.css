@@ -3,9 +3,7 @@
     margin: 0;
 }
 
-#contenidoMenu{
-    padding: 3rem;
-}
+
 
 .landing{
     min-height: 600px;
@@ -36,6 +34,10 @@
     margin-top: 1rem;
     
 }
+
+.dos{
+    margin-top: 7rem;
+}
 .lugar{
     padding: 1rem;
 }
@@ -48,6 +50,11 @@
     display: block;
     list-style: none;
 }
+
+#contenidoMenu{
+    padding: 3rem;
+}
+
 @media (min-width: 992px){
     .text{
         left: 50%;
@@ -60,6 +67,11 @@
     .uno {
         margin-top: 1rem;
         padding: 0 16rem;
+    }
+
+    .dos{
+        margin-top: 7rem;
+        padding: 0 10rem;
     }
     
     .row{
@@ -79,6 +91,10 @@
     .lista{
         display: flex;
         list-style: none;
+    }
+
+    #contenidoMenu{
+        padding: 0rem;
     }
 }
 
